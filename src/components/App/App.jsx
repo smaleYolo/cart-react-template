@@ -14,7 +14,7 @@ function App() {
         <section className="section-cart">
             <header className="section-cart__header">
                 <div className="container">
-                    <Title />
+                    <Title/>
                 </div>
             </header>
 
