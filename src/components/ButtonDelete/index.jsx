@@ -5,7 +5,7 @@ import './style.scss'
 const ButtonDelete = ({deleteProduct}) => {
     return (
         <button type="button" onClick={deleteProduct}>
-            <img src='/img/icons/cross.svg' alt="Delete"/>
+            <img src='img/icons/cross.svg' alt="Delete"/>
         </button>
     );
 };

@@ -14,7 +14,7 @@ const Product = ({product, deleteProduct, increase, decrease, changeValue}) => {
     return (
         <section className="product">
             <div className="product__img">
-                <img src={`/img/products/${img}`} alt={title}/>
+                <img src={`img/products/${img}`} alt={title}/>
             </div>
             <div className="product__title">
                 {title}

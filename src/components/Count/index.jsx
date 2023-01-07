@@ -15,10 +15,10 @@ const Count = ({id, count, increase, decrease, changeValue}) => {
             </div>
             <div className="count__controls">
                 <button className="count__up" type="button" onClick={() => increase(id)}>
-                    <img src='/img/icons/icon-up.svg' alt="Increase"/>
+                    <img src='img/icons/icon-up.svg' alt="Increase"/>
                 </button>
                 <button className="count__down" type="button" onClick={() => decrease(id)}>
-                    <img src='/img/icons/icon-down.svg' alt="Decrease"/>
+                    <img src='img/icons/icon-down.svg' alt="Decrease"/>
                 </button>
             </div>
         </div>
